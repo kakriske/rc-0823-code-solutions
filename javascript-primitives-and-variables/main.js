@@ -1,0 +1,15 @@
+const fullName = 'Kyle Kriske';
+const isCool = 'false';
+const totalPets = 3;
+console.log('fullName', fullName);
+console.log('isCool', isCool);
+console.log('totalPets', totalPets);
+console.log(typeof fullName);
+console.log(typeof isCool);
+console.log(typeof totalPets);
+const unknown = null;
+console.log(unknown);
+console.log(typeof unknown);
+let never;
+console.log(never);
+console.log(typeof never);
