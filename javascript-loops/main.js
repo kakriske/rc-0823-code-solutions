@@ -28,7 +28,7 @@ function getEvenNumbersToTwenty() {
 
 function repeatWord(word, times) {
   let count = 1;
-  let repeated = ' ';
+  let repeated = '';
   if (count === 0) {
     return '';
   }

@@ -5,33 +5,34 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the purpose of a loop?
-  Loops are used for running the same code over and over, each time with a new value.
+  Loops are used to execute a code block a desired amount of times.
 
 - What is the purpose of a **condition** expression in a loop?
-  The condition is tested each time the loop runs. When it is true it keeps running. When it is false it stops.
+  The condition expression is tested each time a loop repeats. If it is true it keeps going. Otherwise it stops.
+
 - What does "iteration" mean in the context of loops?
-  The number of times the code block reads.
+  The amount of times a code block runs.
 
 - _When_ does the **condition** expression of a `while` loop get evaluated?
-  The condition is evaluated before the start of the code.
+  This is evaluated before the code runs.
 
 - _When_ does the **initialization** expression of a `for` loop get evaluated?
-  The initialization is evaluated at the beginning of the loop.
+  Evaluated before the loop begins
 
 - _When_ does the **condition** expression of a `for` loop get evaluated?
-  The condition expression of a for loop is evaluated each time the loop runs. If true it keeps going.
+  This is evaluated each time the loop iterates.
 
 - _When_ does the **final** expression of a `for` loop get evaluated?
-  When the condition expression is false.
+  The last iteration.
 
 - Besides a `return` statement, which exits its entire function block, which keyword exits a loop before its **condition** expression evaluates to `false`?
-  (!value) break
+  break.
 
 - What does the `++` increment operator do?
-  increments by 1.
+  This will increment one step.
 
 - How do you iterate through the keys of an object?
-  Using a for..in loop.
+  With for..in loops.
 
 ## Notes
 
