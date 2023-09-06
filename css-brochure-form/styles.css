@@ -1,0 +1,21 @@
+h3 {
+  text-align: center;
+  font-family: sans-serif, Verdana;
+  color: #ff4548;
+  font-weight: 10;
+}
+
+.text {
+  text-align: center;
+  font-family: sans-serif, Verdana;
+  font-weight: 10;
+}
+
+.center {
+  margin: auto;
+  display: block;
+}
+
+.button {
+  text-align: right;
+}
