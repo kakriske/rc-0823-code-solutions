@@ -1,21 +1,45 @@
-h3 {
+h2 {
   text-align: center;
   font-family: sans-serif, Verdana;
   color: #ff4548;
   font-weight: 10;
 }
 
+fieldset {
+  border: none;
+}
+
 .text {
-  text-align: center;
   font-family: sans-serif, Verdana;
-  font-weight: 10;
+  font-weight: 200;
+  font-size: 12px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
 }
 
 .center {
-  margin: auto;
-  display: block;
+  width: 380px;
+  height: 35px;
+  border: 1px solid grey;
+  border-radius: 5px;
 }
 
 .button {
   text-align: right;
+}
+
+button {
+  background-color: #ff5548;
+  border-radius: 15px;
+  border: none;
+  color: white;
+}
+
+select {
+  background-color: lightgray;
 }
