@@ -9,6 +9,13 @@
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background-color: black;
+  background-color: rgb(255, 255, 143);
   border: 1px solid red;
+}
+
+.light.off {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(91, 89, 89);
 }
