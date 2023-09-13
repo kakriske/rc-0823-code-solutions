@@ -1,10 +1,14 @@
-const isOn = true;
-const bulb = document.querySelector('.light');
+let isOn = false;
+const $center = document.querySelector('.center');
+const $light = document.querySelector('.light');
 
-bulb.addEventListener('click', function (event) {
+$light.addEventListener('click', function (event) {
+  isOn = !isOn;
   if (isOn) {
-    bulb.className = 'light-off';
+    $center.className = 'center bright';
+    $light.className = 'light on';
   } else {
-    bulb.className = 'light';
+    $center.className = 'center';
+    $light.className = 'light';
   }
 });
