@@ -1,0 +1,22 @@
+button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.button {
+  display: block;
+  width: 15%;
+  padding: 14px;
+  height: 40%;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: grey;
+}
+
+th {
+  background-color: black;
+  color: white;
+}
