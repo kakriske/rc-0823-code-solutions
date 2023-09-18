@@ -9,15 +9,52 @@ fieldset {
   border: none;
 }
 
-.text {
+.textA {
   font-family: sans-serif, Verdana;
   font-weight: 200;
   font-size: 12px;
-  padding-top: 5px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 275px;
+}
+
+.textB {
+  font-family: sans-serif, Verdana;
+  font-weight: 200;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-right: 340px;
+}
+
+.textC {
+  font-family: sans-serif, Verdana;
+  font-weight: 200;
+  font-size: 12px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+}
+
+.textD {
+  font-family: sans-serif, Verdana;
+  font-weight: 200;
+  font-size: 12px;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 
 label {
+  display: flex;
+  justify-content: center;
+  padding-right: 250px;
+}
+
+label:last-of-type {
+  padding-right: 1px;
+}
+
+.forInput {
   display: flex;
   justify-content: center;
 }
@@ -30,14 +67,19 @@ label {
 }
 
 .button {
-  text-align: right;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-left: 280px;
 }
 
 button {
   background-color: #ff5548;
   border-radius: 15px;
-  border: none;
   color: white;
+  font-size: large;
+  padding: 5px 15px;
+  border: none;
 }
 
 select {
