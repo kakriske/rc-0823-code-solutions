@@ -1,0 +1,63 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  line-height: 1.9rem;
+  color: grey;
+  font-family: Karla, sans-serif;
+}
+
+h1 {
+  margin: 8rem 0 2rem;
+  font-size: 3.25;
+  letter-spacing: 0.25rem;
+  color: black;
+}
+
+h3 {
+  margin: 2.25rem auto 0.5rem;
+  font-size: 1rem;
+  color: black;
+}
+
+header {
+  text-align: center;
+}
+
+.first-row {
+  margin-bottom: 3rem;
+}
+
+.second-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.Information {
+  display: flex;
+  flex-basis: 50%;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.paragraph > p {
+  margin-top: 0;
+}
+
+.learn {
+  display: flex;
+  justify-content: center;
+}
+
+.learn-more {
+  height: 2.75rem;
+  border: 2px solid;
+  padding: 0.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: red;
+  background-color: white;
+}
